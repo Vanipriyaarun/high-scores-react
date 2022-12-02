@@ -1,53 +1,45 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
  .scoreTable h2{
   text-align: center;
+  color:rgb(29, 183, 230);
+  font-weight:900;
+  font-size: 3rem;
 } 
+.scoreTable{
+  margin: 10px 40px;
+  border: 4px solid purple;
+  border-radius: 5px;
+  padding: 30px;
+}
+.countryScore,.world-wide-score{
+  margin: 15px 40px;
+  border: 10px solid green;
+  border-radius: 5px;
+  padding: 30px;
+
+}
 .countryScore h4{
   text-align: center;
+  color: rgb(29, 183, 230);
+  font-weight: 700;
+  font-size: 1.8rem;
 } 
-/* .scoreTable{
-  border: solid 1px gray;
-}
-.countryScore{
-  border: solid 1px gray;
-} */
 .class table{
   text-align: center;
+}
+.table{
+  border: 2px solid black;
+}
+.table tbody{
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.score{
+  color: brown;
+}
+.world-wide-score h2{
+  text-align: center;
+  color: rgb(29, 183, 230);
+  font-weight: 900;
+  font-size: 3rem;
 }

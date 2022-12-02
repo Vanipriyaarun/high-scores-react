@@ -9,7 +9,7 @@ import allCountryScores from "./scores";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <App allScores={allCountryScores}/>
+  <App allScores={allCountryScores.sort((a,b)=>(a.name.toUpperCase() < b.name.toUpperCase() ? -1 : a.name.toUpperCase() > b.name.toUpperCase() ? 1 : 0))}/>
 );
 
 // If you want to start measuring performance in your app, pass a function
